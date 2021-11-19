@@ -5,7 +5,7 @@ inputCreate.addEventListener('keydown', (event) => {
     if(event.key == "Enter")
       addItem();
   });
-{/* <span class="min">— </span> */}
+
 function addItem(){
     let item = `
         <div class="item-list" style='text-decoration: none'>
